@@ -1,0 +1,5 @@
+1.
+A-python manage.py runserver
+B-http://127.0.0.1:8000/movies/1/ , then http://127.0.0.1:8000/movies/2/ , then http://127.0.0.1:8000/movies/100/
+C-first time- views.add_movie is called. socend time- views.movie is called.
+For shrek, nothing happens because the view request movies/*a number* (and not a name!).
