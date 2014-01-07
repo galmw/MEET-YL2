@@ -233,7 +233,7 @@ void loop() {
   }
   
  
-  /*
+  /*  
   digitalWrite(12, HIGH);   // set LED #1 on
   delay(i);              // wait for <i> miliseconds
   digitalWrite(12, LOW);    // set LED #1 off
